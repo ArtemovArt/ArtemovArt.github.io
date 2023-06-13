@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.53c397d8.css",
-    "main.js": "/static/js/main.95a10a83.js",
+    "main.css": "/static/css/main.8d274984.css",
+    "main.js": "/static/js/main.1fba6246.js",
     "static/media/DelaGothicOne-Regular.ttf": "/static/media/DelaGothicOne-Regular.49d69206ea0feeabb0d4.ttf",
     "index.html": "/index.html",
-    "main.53c397d8.css.map": "/static/css/main.53c397d8.css.map",
-    "main.95a10a83.js.map": "/static/js/main.95a10a83.js.map"
+    "main.8d274984.css.map": "/static/css/main.8d274984.css.map",
+    "main.1fba6246.js.map": "/static/js/main.1fba6246.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c397d8.css",
-    "static/js/main.95a10a83.js"
+    "static/css/main.8d274984.css",
+    "static/js/main.1fba6246.js"
   ]
 }
