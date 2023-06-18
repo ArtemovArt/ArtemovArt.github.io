@@ -27,7 +27,7 @@ const Card = (props) => {
         style={{
           width: "100%",
           height: 200,
-          backgroundImage: `url(http://localhost:5000/${props.picture})`,
+          backgroundImage: `url(https://sore-puce-panda-wig.cyclic.app/${props.picture})`,
           backgroundSize: "cover",
           borderRadius: "15px 15px 0 0",
         }}
