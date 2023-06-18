@@ -23,21 +23,20 @@ const SprintGame = () => {
                 className="slogan-font d-flex flex-row align-center"
                 style={{ lineHeight: "100%", fontSize: "48px" }}
               >
-                Sprint
+                Спринт
               </span>
               <span className="lower-text">
-                Trains the skill of fast translation. You have to choose if the
-                translation corresponds to the suggested word.
+                Тренирует навык быстрого перевода. Вы должны выбрать,
+                соответствует ли перевод предложенному слову. У вас есть 45
+                секунд.
               </span>
             </div>
             <div className="diff-level">
-              <span className="lower-text">Choose a Level:</span>
+              <span className="lower-text">Выберите сложность:</span>
               <div className="levels-container">
                 <Level
                   color={"#639B6D"}
                   lighten={"#c1d7c5"}
-                  // onClick={() => setIsClicked(!isClicked)}
-                  // back={isClicked ? "#c1d7c5" : "#ffffff"}
                   children={
                     <span
                       className="level-text"
@@ -50,8 +49,6 @@ const SprintGame = () => {
                 <Level
                   color={"#C4A24C"}
                   lighten={"#e7dab7"}
-                  // onClick={() => setIsClicked(!isClicked)}
-                  // back={isClicked ? "#e7dab7" : "#ffffff"}
                   children={
                     <span
                       className="level-text"
@@ -64,8 +61,6 @@ const SprintGame = () => {
                 <Level
                   color={"#CB5B43"}
                   lighten={"#eabdb4"}
-                  // onClick={() => setIsClicked(!isClicked)}
-                  // back={isClicked ? "#eabdb4" : "#ffffff"}
                   children={
                     <span
                       className="level-text"
@@ -78,8 +73,6 @@ const SprintGame = () => {
                 <Level
                   color={"#A95151"}
                   lighten={"#ddb9b9"}
-                  // onClick={() => setIsClicked(!isClicked)}
-                  // back={isClicked ? "#c1d7c5" : "#ffffff"}
                   children={
                     <span
                       className="level-text"
@@ -96,7 +89,7 @@ const SprintGame = () => {
                 to="/game"
                 className={setActive}
               >
-                Get Started
+                Приступить
               </NavLink>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
             to="/textbook"
             className={setActive}
           >
-            Textbook
+            Учебник
           </NavLink>
         </div>
         <img
@@ -38,7 +38,7 @@ const Navbar = () => {
             to="/dictionary"
             className={setActive}
           >
-            Dictionary
+            Мой Словарь
           </NavLink>
         </div>
       </div>
@@ -46,10 +46,6 @@ const Navbar = () => {
         className="d-flex flex-row align-center"
         style={{ gap: 10 }}
       >
-        {/* <img
-          src="/images/sprint-button.svg"
-          alt="sprint-btn"
-        /> */}
         <div className="pink-btn">
           <img
             src="/images/small-pink-boots.svg"
@@ -61,7 +57,7 @@ const Navbar = () => {
             className="in-box-text"
             style={{ padding: "14px 45px 14px 9px", borderRadius: 100 }}
           >
-            Sprint
+            К спринту
           </NavLink>
         </div>
         <span className="settings-box">

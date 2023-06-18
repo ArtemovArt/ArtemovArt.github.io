@@ -4,21 +4,20 @@ import Slogan from "./UI/Slogan";
 const TextbookPreview = () => {
   return (
     <div className="third_container">
-      <div
-        className="d-flex flex-row"
-        style={{ marginLeft: 370 }}
-      >
+      <div className="second-content">
         <div
           className="slogan"
           style={{ gap: "34px" }}
         >
           <Slogan
-            main={"Increase your vocabulary"}
-            bottom={"Traditional and new effective approaches to word study"}
+            main={"Увеличьте свой словарный запас"}
+            bottom={
+              "Привычные и новые эффективные подходы к изучению и запоминанию слов"
+            }
           />
         </div>
         <img
-          style={{ marginLeft: 90 }}
+          className="pict"
           src="images/study-girl.svg"
           alt="girl"
         />

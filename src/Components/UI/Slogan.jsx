@@ -20,7 +20,7 @@ const Slogan = (props) => {
           to="/textbook"
           className={setActive}
         >
-          Textbook
+          К учебнику
           <img
             src="/images/cyan-arrow.svg"
             alt="c-arrow"

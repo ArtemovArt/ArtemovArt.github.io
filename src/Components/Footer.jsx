@@ -11,19 +11,19 @@ const Footer = () => {
               to="/home"
               className="inner-div-font"
             >
-              Home
+              Главная
             </NavLink>
             <NavLink
               to="/textbook"
               className="inner-div-font"
             >
-              Textbook
+              Учебник
             </NavLink>
             <NavLink
               to="/sprint"
               className="inner-div-font"
             >
-              Sprint
+              Спринт
             </NavLink>
           </div>
           <div className="nav-buttons">

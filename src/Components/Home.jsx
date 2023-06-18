@@ -8,22 +8,15 @@ const Home = () => {
           <div className="about">
             <div className="left-text">
               <div className="text-content">
-                <span className="name">E-COURSE PLATFORM</span>
+                <span className="name">Приложение</span>
                 <div className="slogan">
                   <span className="slogan-font">
-                    Learning and teaching online, made easy.
+                    Обучение онлайн теперь проще простого.
                   </span>
                   <span className="bottom-slogan-font">
-                    Practice your English and learn new things with the
-                    platform.
+                    Практикуйте свой английский и узнавайте что-то новое с
+                    помощью приложения.
                   </span>
-                </div>
-                <div className="about-button">
-                  <img
-                    src="/images/about.svg"
-                    alt="about"
-                    className="about-button"
-                  />
                 </div>
               </div>
               <div className="description">
@@ -37,7 +30,7 @@ const Home = () => {
                   />
                   <div className="d-flex flex-column">
                     <span>600+</span>
-                    <span className="lower-text">Popular words</span>
+                    <span className="lower-text">Популярных слов</span>
                   </div>
                 </div>
                 <img
@@ -54,15 +47,15 @@ const Home = () => {
                   />
                   <div className="d-flex flex-column align-center">
                     <span>2+</span>
-                    <span className="lower-text">Mini-games</span>
+                    <span className="lower-text">Мини-игр</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <img
-            style={{ width: "49%", height: "70%" }}
-            className="mt-20 "
+            // style={{ width: "49%", height: "70%" }}
+            className="pict mt-20"
             src="/images/boy-with-flower.svg"
             alt="boy"
           ></img>
