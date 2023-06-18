@@ -12,6 +12,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router";
 import { registration } from "../../actions/user";
 
 function Copyright(props) {
@@ -40,11 +42,24 @@ function Copyright(props) {
 const defaultTheme = createTheme();
 
 export default function Registration() {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const handleSubmit = (event) => {
     event.preventDefault();
+
     const data = new FormData(event.currentTarget);
 
-    registration(data.get("email"), data.get("password"), data.get("userName"));
+    dispatch(
+      registration(
+        data.get("email"),
+        data.get("password"),
+        data.get("userName")
+      )
+    ).then((value) => {
+      if (value === 200) {
+        navigate("/main");
+      }
+    });
   };
 
   return (
