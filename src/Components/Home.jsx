@@ -8,14 +8,14 @@ const Home = () => {
           <div className="about">
             <div className="left-text">
               <div className="text-content">
-                <span className="name">Приложение</span>
+                {/* <span className="name">Приложение</span> */}
                 <div className="slogan">
                   <span className="slogan-font">
                     Обучение онлайн теперь проще простого.
                   </span>
                   <span className="bottom-slogan-font">
-                    Практикуйте свой английский и узнавайте что-то новое с
-                    помощью приложения.
+                    Улучшайте свой английский и узнавайте что-то новое с помощью
+                    приложения.
                   </span>
                 </div>
               </div>
@@ -29,7 +29,7 @@ const Home = () => {
                     alt="lightning"
                   />
                   <div className="d-flex flex-column">
-                    <span>600+</span>
+                    <span>15+</span>
                     <span className="lower-text">Популярных слов</span>
                   </div>
                 </div>
@@ -46,8 +46,8 @@ const Home = () => {
                     alt="gtag"
                   />
                   <div className="d-flex flex-column align-center">
-                    <span>2+</span>
-                    <span className="lower-text">Мини-игр</span>
+                    <span>1</span>
+                    <span className="lower-text">Мини-игра</span>
                   </div>
                 </div>
               </div>
