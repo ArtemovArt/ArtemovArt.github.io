@@ -41,10 +41,7 @@ const Dictionary = () => {
                 src="/images/study-boy.svg"
                 alt="lil-boy"
               />
-              <div
-                className="d-flex flex-column align-start"
-                style={{ gap: 40 }}
-              >
+              <div className="text-block">
                 <span className="font-main">Пока что здесь пусто...</span>
                 <span className="font-bottom">
                   Чтобы сохранить трудные слова для дальнейшего изучения,
