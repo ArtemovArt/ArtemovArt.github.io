@@ -35,27 +35,29 @@ const Dictionary = () => {
             </div>
           </div>
         ) : (
-          <div className="empty">
-            <img
-              src="/images/study-boy.svg"
-              alt="lil-boy"
-            />
-            <div
-              className="d-flex flex-column align-start"
-              style={{ gap: 40 }}
-            >
-              <span className="font-main">Пока что здесь пусто...</span>
-              <span className="font-bottom">
-                Чтобы сохранить трудные слова для дальнейшего изучения,
-                перейдите к учебнику и выберите "добавить в словарь".
-              </span>
-              <div className="start-button">
-                <NavLink
-                  to="/textbook"
-                  className={setActive}
-                >
-                  К учебнику
-                </NavLink>
+          <div className="empty-wrapper">
+            <div className="empty">
+              <img
+                src="/images/study-boy.svg"
+                alt="lil-boy"
+              />
+              <div
+                className="d-flex flex-column align-start"
+                style={{ gap: 40 }}
+              >
+                <span className="font-main">Пока что здесь пусто...</span>
+                <span className="font-bottom">
+                  Чтобы сохранить трудные слова для дальнейшего изучения,
+                  перейдите к учебнику и выберите "добавить в словарь".
+                </span>
+                <div className="start-button">
+                  <NavLink
+                    to="/textbook"
+                    className={setActive}
+                  >
+                    К учебнику
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>
